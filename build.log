@@ -1,0 +1,559 @@
+Logfile initialized
+[INFO] logfile = /Users/peachpellen/peach-subs/Gears/build.log
+[DEBUG] /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/builder.py install Gears /Applications/android-sdk /Users/peachpellen/peach-subs/Gears com.peachpellen.platino 7
+[INFO] Titanium SDK version: 3.1.1 (06/15/13 16:09 f7592c1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015901 seconds on emulator to get ready
+[DEBUG] com.peachpellen.platino installed? False
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: /Users/peachpellen/peach-subs/Gears/Resources/app.js => /Users/peachpellen/peach-subs/Gears/build/android/bin/assets/Resources/app.js
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] copying app icon: /Users/peachpellen/peach-subs/Gears/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /Users/peachpellen/peach-subs/Gears/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/peachpellen/peach-subs/Gears/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found splash screen at /Users/peachpellen/peach-subs/Gears/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsActivity.java to javac build list
+[DEBUG] adding /Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsAppInfo.java to javac build list
+[DEBUG] adding /Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsApplication.java to javac build list
+[DEBUG] adding /Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/R.java to javac build list
+[DEBUG] Building Java Sources: "/Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsActivity.java" "/Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsAppInfo.java" "/Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/GearsApplication.java" "/Users/peachpellen/peach-subs/Gears/build/android/gen/com/peachpellen/platino/R.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/peachpellen/peach-subs/Gears/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/graphics/faster.png
+[DEBUG] from resource zip => assets/Resources/graphics/paper.png
+[DEBUG] from resource zip => assets/Resources/graphics/paperGear.png
+[DEBUG] from resource zip => assets/Resources/graphics/reverse.png
+[DEBUG] from resource zip => assets/Resources/graphics/slower.png
+[DEBUG] from resource zip => assets/Resources/graphics/start.png
+[DEBUG] from resource zip => assets/Resources/graphics/startSprite.png
+[DEBUG] from resource zip => assets/Resources/graphics/stop.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/ui/common/ApplicationTabGroup.js
+[DEBUG] from resource zip => assets/Resources/ui/common/FirstView.js
+[DEBUG] from resource zip => assets/Resources/ui/handheld/ApplicationWindow.js
+[DEBUG] from resource zip => assets/Resources/ui/tablet/ApplicationWindow.js
+[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/test.lap
+[DEBUG] from resource zip => assets/Resources/test.pex
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Abidjan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Accra
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Addis_Ababa
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Algiers
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Asmara
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Bamako
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Bangui
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Banjul
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Bissau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Blantyre
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Brazzaville
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Bujumbura
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Cairo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Casablanca
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Ceuta
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Conakry
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Dakar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Dar_es_Salaam
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Djibouti
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Douala
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/El_Aaiun
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Freetown
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Gaborone
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Harare
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Johannesburg
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Kampala
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Khartoum
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Kigali
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Kinshasa
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Lagos
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Libreville
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Lome
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Luanda
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Lubumbashi
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Lusaka
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Malabo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Maputo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Maseru
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Mbabane
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Mogadishu
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Monrovia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Nairobi
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Ndjamena
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Niamey
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Nouakchott
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Ouagadougou
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Porto-Novo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Sao_Tome
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Tripoli
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Tunis
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Africa/Windhoek
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Adak
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Anchorage
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Anguilla
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Antigua
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Araguaina
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Buenos_Aires
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Catamarca
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Cordoba
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Jujuy
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/La_Rioja
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Mendoza
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Rio_Gallegos
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Salta
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/San_Juan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/San_Luis
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Tucuman
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Argentina/Ushuaia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Aruba
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Asuncion
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Atikokan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Bahia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Bahia_Banderas
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Barbados
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Belem
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Belize
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Blanc-Sablon
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Boa_Vista
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Bogota
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Boise
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Cambridge_Bay
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Campo_Grande
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Cancun
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Caracas
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Cayenne
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Cayman
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Chicago
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Chihuahua
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Costa_Rica
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Cuiaba
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Curacao
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Danmarkshavn
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Dawson
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Dawson_Creek
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Denver
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Detroit
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Dominica
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Edmonton
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Eirunepe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/El_Salvador
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Fortaleza
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Glace_Bay
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Godthab
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Goose_Bay
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Grand_Turk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Grenada
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Guadeloupe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Guatemala
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Guayaquil
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Guyana
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Halifax
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Havana
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Hermosillo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Indianapolis
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Knox
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Marengo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Petersburg
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Tell_City
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Vevay
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Vincennes
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Indiana/Winamac
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Inuvik
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Iqaluit
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Jamaica
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Juneau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Kentucky/Louisville
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Kentucky/Monticello
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/La_Paz
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Lima
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Los_Angeles
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Maceio
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Managua
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Manaus
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Martinique
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Matamoros
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Mazatlan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Menominee
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Merida
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Mexico_City
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Miquelon
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Moncton
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Monterrey
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Montevideo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Montreal
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Montserrat
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Nassau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/New_York
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Nipigon
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Nome
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Noronha
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/North_Dakota/Center
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/North_Dakota/New_Salem
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Ojinaga
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Panama
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Pangnirtung
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Paramaribo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Phoenix
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Port-au-Prince
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Port_of_Spain
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Porto_Velho
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Puerto_Rico
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Rainy_River
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Rankin_Inlet
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Recife
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Regina
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Resolute
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Rio_Branco
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Santa_Isabel
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Santarem
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Santiago
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Santo_Domingo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Sao_Paulo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Scoresbysund
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/St_Johns
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/St_Kitts
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/St_Lucia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/St_Thomas
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/St_Vincent
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Swift_Current
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Tegucigalpa
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Thule
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Thunder_Bay
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Tijuana
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Toronto
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Tortola
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Vancouver
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Whitehorse
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Winnipeg
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Yakutat
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/America/Yellowknife
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Casey
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Davis
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/DumontDUrville
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Macquarie
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Mawson
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/McMurdo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Palmer
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Rothera
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Syowa
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Antarctica/Vostok
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Aden
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Almaty
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Amman
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Anadyr
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Aqtau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Aqtobe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Ashgabat
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Baghdad
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Bahrain
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Baku
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Bangkok
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Beirut
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Bishkek
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Brunei
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Choibalsan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Chongqing
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Colombo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Damascus
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Dhaka
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Dili
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Dubai
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Dushanbe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Gaza
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Harbin
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Ho_Chi_Minh
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Hong_Kong
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Hovd
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Irkutsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Jakarta
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Jayapura
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Jerusalem
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kabul
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kamchatka
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Karachi
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kashgar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kathmandu
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kolkata
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Krasnoyarsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kuala_Lumpur
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kuching
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Kuwait
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Macau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Magadan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Makassar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Manila
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Muscat
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Nicosia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Novokuznetsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Novosibirsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Omsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Oral
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Phnom_Penh
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Pontianak
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Pyongyang
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Qatar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Qyzylorda
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Rangoon
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Riyadh
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Sakhalin
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Samarkand
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Seoul
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Shanghai
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Singapore
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Taipei
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Tashkent
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Tbilisi
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Tehran
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Thimphu
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Tokyo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Ulaanbaatar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Urumqi
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Vientiane
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Vladivostok
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Yakutsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Yekaterinburg
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Asia/Yerevan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Azores
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Bermuda
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Canary
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Cape_Verde
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Faroe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Madeira
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Reykjavik
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/South_Georgia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/St_Helena
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Atlantic/Stanley
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Adelaide
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Brisbane
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Broken_Hill
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Currie
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Darwin
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Eucla
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Hobart
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Lindeman
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Lord_Howe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Melbourne
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Perth
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Australia/Sydney
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/CET
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/CST6CDT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/EET
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/EST
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/EST5EDT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+1
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+10
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+11
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+12
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+2
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+3
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+4
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+5
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+6
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+7
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+8
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT+9
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-1
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-10
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-11
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-12
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-13
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-14
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-2
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-3
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-4
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-5
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-6
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-7
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-8
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/GMT-9
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/UCT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Etc/UTC
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Amsterdam
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Andorra
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Athens
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Belgrade
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Berlin
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Brussels
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Bucharest
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Budapest
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Chisinau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Copenhagen
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Dublin
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Gibraltar
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Helsinki
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Istanbul
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Kaliningrad
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Kiev
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Lisbon
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/London
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Luxembourg
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Madrid
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Malta
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Minsk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Monaco
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Moscow
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Oslo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Paris
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Prague
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Riga
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Rome
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Samara
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Simferopol
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Sofia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Stockholm
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Tallinn
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Tirane
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Uzhgorod
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Vaduz
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Vienna
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Vilnius
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Volgograd
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Warsaw
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Zaporozhye
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Europe/Zurich
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/HST
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Antananarivo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Chagos
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Christmas
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Cocos
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Comoro
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Kerguelen
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Mahe
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Maldives
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Mauritius
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Mayotte
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Indian/Reunion
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/MET
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/MST
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/MST7MDT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/PST8PDT
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Apia
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Auckland
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Chatham
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Chuuk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Easter
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Efate
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Enderbury
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Fakaofo
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Fiji
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Funafuti
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Galapagos
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Gambier
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Guadalcanal
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Guam
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Honolulu
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Johnston
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Kiritimati
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Kosrae
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Kwajalein
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Majuro
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Marquesas
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Midway
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Nauru
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Niue
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Norfolk
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Noumea
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Pago_Pago
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Palau
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Pitcairn
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Pohnpei
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Port_Moresby
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Rarotonga
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Saipan
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Tahiti
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Tarawa
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Tongatapu
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Wake
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/Pacific/Wallis
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/WET
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/colanicaplatino.jar => org/joda/time/tz/data/ZoneInfoMap
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.purchase.google/1.0.0/lib/mpn.jar => com/android/vending/billing/IInAppBillingService.aidl
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/peachpellen/Library/Application Support/Titanium/mobilesdk/osx/3.1.1.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/armeabi/libbldparser.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/armeabi/libco.lanica.platino.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/armeabi-v7a/libbldparser.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/armeabi-v7a/libco.lanica.platino.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/x86/libbldparser.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.platino/2.0.0/libs/x86/libco.lanica.platino.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.purchase.google/1.0.0/libs/armeabi/libco.lanica.purchase.google.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.purchase.google/1.0.0/libs/armeabi-v7a/libco.lanica.purchase.google.so
+[DEBUG] installing native lib: /Users/peachpellen/Library/Application Support/Titanium/modules/android/co.lanica.purchase.google/1.0.0/libs/x86/libco.lanica.purchase.google.so
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015928 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen

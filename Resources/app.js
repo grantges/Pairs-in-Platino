@@ -93,20 +93,20 @@ for (var xRow=0;xRow<3;xRow++){
     for (yRow=0;yRow<4;yRow++){
         y=y+90;
         
-        //assign each image random location on grid
-        var temp = Math.floor((Math.random()*cardImages.length));//cardImages.length+1));
-        card[totalCards] = platino.createSprite({image:"graphics/"+cardImages[temp]+".png"});//({image:"graphics/"+cardImages[temp]+".png"});
+        // Assign each image a random location on grid
+        var temp = Math.floor((Math.random()*cardImages.length));
+        card[totalCards] = platino.createSprite({image:"graphics/"+cardImages[temp]+".png"});
         scene.add(card[totalCards]);
         
-        //position
+        // Position the card
         card[totalCards].x = x;
         card[totalCards].y = y;
         
-        //name cards
+        // Name the card
         card[totalCards].myName = cardImages[temp];
         card[totalCards].number = totalCards;
         
-        //Remove card from cardImages table
+        // Remove card from cardImages table
         cardImages.splice(temp, 1);
         
         // Set cover to hide card image

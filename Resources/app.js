@@ -40,15 +40,16 @@ var flipCard = function(target){
     }
     else if(pairCheck===true){
         if(secondCard===0){
-            //flip 2nd card
+            // Flip the 2nd card
             cardMask[target.number].alpha=0;
             secondCard = 1;
-            // if cards don't pair, flip over
+            // If cards aren't a pair, flip them both back over
             if(lastCard.myName != target.myName){
-               pairText.text = "Not a pair!";
-                // add timer here
+				// Update text to show no pair was found
+				pairText.text = "Not a pair!";
+                // Timer so cards stay visible for 1 second before flipping back over
                 setTimeout(function(){
-                pairText.text = " ";
+                pairText.text = " "; // Make pair text blank again
                 pairCheck = false;
                 secondCard = 0;
                 cardMask[lastCard.number].alpha=1;
@@ -56,15 +57,16 @@ var flipCard = function(target){
                 },1000);
             }
                 else if(lastCard.myName===target.myName && lastCard.number!=target.number){
-                    pairText.text = "Pair Found!";
-                    pairs = pairs+1
+                    // Update text to show that a pair was found
+					pairText.text = "Pair Found!";
+                    pairs = pairs+1; // Count the pair
                     setTimeout(function(){
                     pairText.text = " ";
                     pairCheck = false;
                     secondCard = 0;
                     scene.remove(lastCard);
                     scene.remove(target);
-                    lastCard.dispose(); // ?
+                    lastCard.dispose();
                     target.dispose();
                     cardMask[lastCard.number].dispose();
                     cardMask[target.number].dispose();
@@ -116,6 +118,7 @@ for (var xRow=0;xRow<3;xRow++){
     }
 }
 
+// A function and listener for the cards when touched
 var touchCard = function(e){
     for (var i = 0; i < card.length; i++){
         if (cardMask[i].contains(e.x, e.y)){
